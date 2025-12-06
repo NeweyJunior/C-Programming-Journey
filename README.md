@@ -19,7 +19,10 @@ An algorithm to calculate and analyze sector times and total lap durations.
 ### 4. 🛠️ Pit Stop Strategy (`pitStopStrategy.c`)
 Basic logic for race strategy calculations and decision making processes.
 
-### 5. 🧮 Calculator (`calculator.c`)
+### 5. 📡 Telemetry Converter (`telemetryConverter.c`)
+A utility tool designed to convert race data units (e.g., MPH to KPH, Fahrenheit to Celsius) for data analysis.
+
+### 6. 🧮 Calculator (`calculator.c`)
 My first project to understand arithmetic operations and user input in C.
 
 ---
