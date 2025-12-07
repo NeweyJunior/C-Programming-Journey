@@ -13,7 +13,7 @@ int gearDown(int);
 void overtakeMode(int);
 void X_mode();
 void Z_mode();
-void pitLane(float);
+float pitLane(float);
 
 int main(){
     int process,rpm;
@@ -77,7 +77,7 @@ float pitLane(float speed){
     return speed;
 }
 void showMenu(){
-    printf("---RB22 STEERİNG WHEEL MENU---\n");
+    printf("---RB22 STEERING WHEEL MENU---\n");
     printf("1-Activate MOM\n");
     printf("2-MGU-K\n");
     printf("3-Pit lane mode\n");
