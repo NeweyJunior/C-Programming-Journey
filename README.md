@@ -25,6 +25,10 @@ A utility tool designed to convert race data units (e.g., MPH to KPH, Fahrenheit
 ### 6. 🧮 Calculator (`calculator.c`)
 My first project to understand arithmetic operations and user input in C.
 
+### 7. 🕹️🏎️🔴🔵 Steering Wheel (`f1SteeringWheel.c`)
+A console-based simulation of a 2026-spec F1 steering wheel interface.
+- **Features:** Implementation of **2026 Regulations** (MOM - Manual Override Mode, Active Aero), Pit Limiter logic with return values, Gearbox memory system, and Battery (ERS) management.
+- **Concepts:** `Switch-Case` State Machine, `Infinite Loops` (Real-time polling), Global Variables, and Modular Function Design.
 ---
 
 ## 👨‍💻 About Me
