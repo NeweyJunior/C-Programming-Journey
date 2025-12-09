@@ -31,6 +31,12 @@ A console-based simulation of a 2026-spec F1 steering wheel interface.
 - **Concepts:** `Switch-Case` State Machine, `Infinite Loops` (Real-time polling), Global Variables, and Modular Function Design.
 ---
 
+### 8. 🏁🏎 Race Control Panel (`raceControlPanel.c`) 
+Description: A modular C simulation mimicking an F1 Race Engineer's control panel. Features real-time telemetry generation (Engine/Tyres), physics-based calculations (Fuel/Downforce), and interactive system monitoring via a CLI loop.
+
+Tech Stack: C, Modular Functions, Physics Logic (math.h), Stochastic Simulation (rand).
+
+
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
 
