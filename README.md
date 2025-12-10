@@ -36,6 +36,8 @@ Description: A modular C simulation mimicking an F1 Race Engineer's control pane
 
 Tech Stack: C, Modular Functions, Physics Logic (math.h), Stochastic Simulation (rand).
 
+### 9. 💻 Telemetry Analysis Program (`telemetryAnalysis.c`)
+Description: A telemetry analysis program was developed using arrays in the C language (lap time and average speed calculation).
 
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
