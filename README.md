@@ -13,7 +13,7 @@ A simulation of the Red Bull RB21 launch sequence (Start Procedure).
 ### 2. 🔋 Battery Management System (`BatteryManagementSystem.c`)
 A telemetry simulation for an F1 ERS (Energy Recovery System) battery unit. It monitors charge levels and health status.
 
-### 3. ⏱️ Lap Time Calculator (`lapTimeCalculator.c`)
+### 3. ⏱️ Lap Time Calculator (`lapTimeCalculatorV1.0.c`)
 An algorithm to calculate and analyze sector times and total lap durations.
 
 ### 4. 🛠️ Pit Stop Strategy (`pitStopStrategy.c`)
@@ -36,7 +36,7 @@ Description: A modular C simulation mimicking an F1 Race Engineer's control pane
 
 Tech Stack: C, Modular Functions, Physics Logic (math.h), Stochastic Simulation (rand).
 
-### 9. 💻 Telemetry Analysis Program (`telemetryAnalysis.c`)
+### 9. 💻 Telemetry Analysis Program (`lapTimeCalculatorV1.1.c`)
 Description: A telemetry analysis program was developed using arrays in the C language (lap time and average speed calculation).
 
 ## 👨‍💻 About Me
