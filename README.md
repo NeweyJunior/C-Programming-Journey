@@ -39,6 +39,9 @@ Tech Stack: C, Modular Functions, Physics Logic (math.h), Stochastic Simulation 
 ### 9. 💻 Telemetry Analysis Program (`lapTimeCalculatorV1.1.c`)
 Description: A telemetry analysis program was developed using arrays in the C language (lap time and average speed calculation).
 
+### 10. 💻🧮 F1 Tyre Life and Strategy Simulator (`f1TyreLifeCalculateV1.0.c`)
+Description: F1 Tire Life and Strategy Simulator V1.0 calculates tire life based on the track and determine the optimal strategy. The tire life calculation section is implemented in version V1.0, and the strategy determination section will be added in version V1.1.
+
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
 
