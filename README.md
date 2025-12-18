@@ -42,7 +42,7 @@ Description: A telemetry analysis program was developed using arrays in the C la
 ### 10. 💻🧮 F1 Tyre Life and Strategy Simulator (`f1TyreLifeCalculateV1.0.c`)
 Description: F1 Tire Life and Strategy Simulator V1.0 calculates tire life based on the track and determine the optimal strategy. The tire life calculation section is implemented in version V1.0, and the strategy determination section will be added in version V1.1.
 
-### 11. 🏎️ 🗂️F1 Telemetry System Using Struct
+### 11. 🏎️ 🗂️F1 Telemetry System Using Struct (`f1TelemetrySystemStructs.c`)
 Description: A structured data management system designed to handle driver telemetry, tyre compounds, and sector times using C Structures (structs) and Arrays.
 
 ## 👨‍💻 About Me
