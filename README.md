@@ -48,12 +48,12 @@ Description: A structured data management system designed to handle driver telem
 ### 12. 💻🧮 F1 Tyre Life and Strategy Simulator V1.1 (`f1TyreLifeCalculateV1.1.c`)
 
 **Description:**
-This is the advanced version of the F1 Tire Life Simulator (V1.0). In this update (V1.1), the simulation engine has been significantly upgraded to include **Dynamic Fuel Load Simulation**.
+This update transforms the V1.0 base model into a more realistic simulation. V1.1 introduces a new physics calculation for fuel load and significantly improves the user interface.
 
-**Patch Notes / Key Improvements:**
-* **Fuel Burn Effect:** Integrated a new algorithm that accounts for the car's starting fuel mass (kg) and lap-by-lap weight reduction. Tire degradation calculation now dynamically adjusts based on the changing car weight.
-* **Logic Fixes:** Resolved a critical "side effect" issue where global friction coefficients were permanently modified during runtime. Also corrected the order of operations for penalty calculations.
-* **Refinement:** Corrected technical terminology (e.g., "Tyre Compound", "Fuel Load") and fixed typos in track data (Temperature, Abu Dhabi) for professional accuracy.
+**New Features & Improvements (V1.1):**
+* **Physics Engine Upgrade (Fuel & Weight):** Implemented "Dynamic Fuel Load" logic. The simulation now accounts for the car getting lighter lap-by-lap due to fuel burn, providing a much more accurate tire life estimation compared to the static model in V1.0.
+* **UI & Usability:** Redesigned the menu structure for a smoother experience. Added a "Small Menu" loop to keep the screen clean during multiple calculations.
+* **Polishing:** Corrected spelling errors (Typos) in track data and updated prompts to use professional F1 terminology (e.g., changed "Tyre Type" to "Tyre Compound").
 
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
