@@ -39,11 +39,21 @@ Tech Stack: C, Modular Functions, Physics Logic (math.h), Stochastic Simulation 
 ### 9. 💻 Telemetry Analysis Program (`lapTimeCalculatorV1.1.c`)
 Description: A telemetry analysis program was developed using arrays in the C language (lap time and average speed calculation).
 
-### 10. 💻🧮 F1 Tyre Life and Strategy Simulator (`f1TyreLifeCalculateV1.0.c`)
+### 10. 💻🧮 F1 Tyre Life and Strategy Simulator V1.0 (`f1TyreLifeCalculateV1.0.c`)
 Description: F1 Tire Life and Strategy Simulator V1.0 calculates tire life based on the track and determine the optimal strategy. The tire life calculation section is implemented in version V1.0, and the strategy determination section will be added in version V1.1.
 
 ### 11. 🏎️ 🗂️F1 Telemetry System Using Struct (`f1TelemetrySystemStructs.c`)
 Description: A structured data management system designed to handle driver telemetry, tyre compounds, and sector times using C Structures (structs) and Arrays.
+
+### 12. 💻🧮 F1 Tyre Life and Strategy Simulator V1.1 (`f1TyreLifeCalculateV1.1.c`)
+
+**Description:**
+This is the advanced version of the F1 Tire Life Simulator (V1.0). In this update (V1.1), the simulation engine has been significantly upgraded to include **Dynamic Fuel Load Simulation**.
+
+**Patch Notes / Key Improvements:**
+* **Fuel Burn Effect:** Integrated a new algorithm that accounts for the car's starting fuel mass (kg) and lap-by-lap weight reduction. Tire degradation calculation now dynamically adjusts based on the changing car weight.
+* **Logic Fixes:** Resolved a critical "side effect" issue where global friction coefficients were permanently modified during runtime. Also corrected the order of operations for penalty calculations.
+* **Refinement:** Corrected technical terminology (e.g., "Tyre Compound", "Fuel Load") and fixed typos in track data (Temperature, Abu Dhabi) for professional accuracy.
 
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
