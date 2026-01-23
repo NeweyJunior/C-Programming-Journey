@@ -55,6 +55,14 @@ This update transforms the V1.0 base model into a more realistic simulation. V1.
 * **UI & Usability:** Redesigned the menu structure for a smoother experience. Added a "Small Menu" loop to keep the screen clean during multiple calculations.
 * **Polishing:** Corrected spelling errors (Typos) in track data and updated prompts to use professional F1 terminology (e.g., changed "Tyre Type" to "Tyre Compound").
 
+### 13. 💻🧮 F1 Tyre Life and Strategy Simulator V1.1 (`f1TyreLifeCalculateV1.2.c`)
+Description: This major update transforms the project from a basic tyre life calculator into a complete Race Strategy Simulator.
+What's New in v1.2:
+* **Strategy Optimization Logic: Implemented calculateBestStrategy() function to determine the fastest race plan.
+* **Scenario Comparison: The algorithm now simulates and compares 22 different pit-stop strategies (including 1-stop and 2-stop variations like S-M, S-H, S-S-M, M-H-S).
+* **Total Race Time Calculation: Added physics-based calculations for total race duration, accounting for pit-stop loss (pitWay), tyre degradation, and fuel load.
+* **Stint Analysis: Introduced helper functions (calculate_1Stop, calculate_2Stop) to simulate specific tyre stints accurately.
+
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
 
