@@ -63,6 +63,9 @@ What's New in v1.2:
 * Total Race Time Calculation: Added physics-based calculations for total race duration, accounting for pit-stop loss (pitWay), tyre degradation, and fuel load.
 * Stint Analysis: Introduced helper functions (calculate_1Stop, calculate_2Stop) to simulate specific tyre stints accurately.
 
+### 14. 💻 Telemetry Data Filter (`telemetryDataFilter.c`)
+A C-based Linked List filtering system designed to process F1 sector times.
+
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
 
