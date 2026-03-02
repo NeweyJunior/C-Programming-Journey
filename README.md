@@ -81,7 +81,14 @@ A C-based project that simulates storing and filtering Formula 1 race results us
 
 How it Works:
 The program initializes a list of race results (representing positions). It then applies a filter to keep only the races where the driver scored points (Top 10 finishes), effectively simulating a points-scoring filter mechanism.
- 
+
+### 17. 🛠📘 IoT Sensor Data Filter (Linked List)
+Description:
+This C project implements a robust filtering algorithm for IoT sensor data streams using Singly Linked Lists. Designed for embedded systems contexts (like telemetry data), it efficiently removes "noise" or invalid readings (e.g., temperature outliers outside the -100°C to +100°C range) from dynamic memory to ensure data integrity.
+
+Usage:
+Ideal for simulating data processing in telemetry systems, ECUs, or environmental monitoring stations.
+
 
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
