@@ -72,6 +72,8 @@ A C-based Linked List filtering system designed to process F1 sector times.
 * 2. Standardization of ConstantsInstead of using "Magic Numbers" (hardcoded values) inside functions, I have moved all physical coefficients to #define macros.This improvement allows for easy calibration of the entire simulation (e.g., tire wear rates, fuel effects) from a single location at the top of the file, adhering to Clean Code principles.
 * 3. Strategy Logic & The "5 km Rule"Problem: In v1.2, Soft compounds were performing unrealistically well on long circuits.Solution: Introduced a conditional logic known as the "5 km Rule". If a track's length exceeds $5\text{ km}$ (e.g., Spa-Francorchamps, Jeddah), a 25% life penalty is applied to Soft compounds. This accurately reflects real-world thermal degradation and forces the simulator to consider more realistic Medium/Hard strategies for longer races.
 * 4. Physics and Accuracy CalibrationIdeal Mileage: Adjusted the base idealKm from 190 km to 250 km to better match official Pirelli tire data.Environmental Factors: Refined the WEIGHT_PENALTY and TEMPERATURE_EFFECT coefficients to ensure that heavy fuel loads and high track temperatures influence tire life realistically without causing mathematical instability.Global Variable Bug Fix: Resolved a critical issue where global tire coefficients were being modified during iterations, ensuring every strategy calculation starts with fresh, consistent data.
+ 
+📈 Accuracy and ResultsBased on comparisons with 2024/2025 race data, version 1.3 achieves an estimated 88-92% accuracy in predicting the winning strategy and total race time for most dry-weather scenarios.
 
 ### 16. 💻📅 F1 Race Results Tracker (Linked List Implementation)
 Description: 
@@ -80,8 +82,6 @@ A C-based project that simulates storing and filtering Formula 1 race results us
 How it Works:
 The program initializes a list of race results (representing positions). It then applies a filter to keep only the races where the driver scored points (Top 10 finishes), effectively simulating a points-scoring filter mechanism.
  
-📈 Accuracy and ResultsBased on comparisons with 2024/2025 race data, version 1.3 achieves an estimated 88-92% accuracy in predicting the winning strategy and total race time for most dry-weather scenarios.
-
 
 ## 👨‍💻 About Me
 I am an aspiring software engineer focusing on **Clean Code** and algorithmic logic. I enjoy solving problems related to physics and racing strategies.
