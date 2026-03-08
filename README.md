@@ -53,6 +53,21 @@ A console-based simulation of a **2026-spec F1 steering wheel** interface.
     * Gearbox memory system and Battery (ERS) management.
 * **Concepts:** Switch-Case **State Machine**, Infinite Loops (Real-time polling), Global Variables, and Modular Function Design.
 
+#### 3. 💻 Brake-by-Wire (BBW) Simulation (`brake_by_wire_sim.c`)
+
+**Overview:**
+A C-based state machine simulation modeling an F1 car's Electronic Brake-by-Wire (BBW) system. This project specifically focuses on the Energy Recovery System (ERS) deployment logic to prevent rear-wheel lock-ups under heavy braking conditions, inspired by real-world telemetries and software anomalies (such as Max Verstappen's Q3 BBW bug).
+
+**Core Engineering Concepts Applied:**
+* **Telemetry Data Packaging:** Utilizes C `struct` architectures to bundle vehicle parameters (Speed, Gear, Brake Pressure, Rear Bias, ERS State) simulating continuous data packets.
+* **Anomaly Detection & Filtering:** Implements safety guardrails to ignore corrupted sensor spikes (e.g., speed > 380 km/h or negative values).
+* **State Machine Logic:** Dynamically toggles ERS mode to intervene and adjust rear brake bias when the vehicle enters a high-risk lock-up window (Gear >= 6, Brake Pressure ~70-80%, Speed >= 275 km/h).
+* **Monte Carlo Testing Approach:** Uses randomized, loop-based data generation over 100 iterations to test the algorithm against rare (~1% probability) edge-case scenarios.
+
+**Tech Stack & Standards:**
+* Language: Standard C (`stdio.h`, `stdlib.h`, `time.h`)
+* Memory: Safe stack allocation (avoiding dynamic memory/segfaults for real-time safety simulation).
+
 ---
 
 ### 📊 `race_strategy`
